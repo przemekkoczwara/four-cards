@@ -1,3 +1,31 @@
-body {
-  background-color: red;
+/* reset */
+@use 'variables' as vars;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: vars.$main-font;
+}
+
+// Typography
+
+.poppins-light {
+  font-family: vars.$font-poppins;
+  font-weight: vars.$font-weight-light;
+}
+
+.poppins-regular {
+  font-family: vars.$font-poppins;
+  font-weight: vars.$font-weight-regular;
+}
+
+.poppins-bold {
+  font-family: vars.$font-poppins;
+  font-weight: vars.$font-weight-semibold;
 }
