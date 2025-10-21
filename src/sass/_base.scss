@@ -25,7 +25,18 @@ html {
   font-weight: vars.$font-weight-regular;
 }
 
-.poppins-bold {
+.poppins-semibold {
   font-family: vars.$font-poppins;
   font-weight: vars.$font-weight-semibold;
+}
+
+.container {
+  background-color: vars.$background-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 4rem 2rem;
 }

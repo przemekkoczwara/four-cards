@@ -6,11 +6,12 @@ $accent-red: hsl(0, 78%, 62%);
 $accent-cyan: hsl(180, 62%, 55%);
 $accent-orange: hsl(34, 97%, 64%);
 $accent-blue: hsl(212, 86%, 64%);
+$accent-shadow: hsl(213, 47%, 67%);
 
 $primary-grey-dark: hsl(234, 12%, 34%);
 $secondary-grey-light: hsl(212, 6%, 44%);
-$background-white: hsl(0, 0%, 100%);
-
+$background-card: hsl(0, 0%, 100%);
+$background-white: hsl(0, 0%, 98%);
 // Fonts
 
 $font-poppins: 'Poppins', sans-serif;
@@ -18,17 +19,19 @@ $font-poppins: 'Poppins', sans-serif;
 // font sizes
 
 $font-size-36: 2.4rem; // 36px
+$font-size-24: 1.6rem; // 24px
 $font-size-20: 1.333rem; // 20px
 $font-size-15: 1rem; // 15px
 $font-size-13: 0.866rem; // 13px
 
 //  spacing
-
+$spacing-60: 4rem; // 60px
 $spacing-40: 2.6667rem; //40px
 $spacing-32: 2.133rem; // 32px
 $spacing-24: 1.6rem; // 16px
 $spacing-16: 1.0667rem; // 16px
 $spacing-8: 0.533rem; // 8px
+$spacing-6: 0.4rem; //6px
 
 // font weights
 

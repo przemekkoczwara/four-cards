@@ -1,0 +1,70 @@
+@use 'variables' as vars;
+
+.wrapper {
+  max-width: 74.266rem; // 1114px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.title,
+.subtitle {
+  font-size: vars.$font-size-24;
+  line-height: vars.$line-height-140;
+  letter-spacing: vars.$letter-spacing;
+  color: vars.$secondary-grey-light;
+}
+.subtitle {
+  color: vars.$primary-grey-dark;
+  margin-bottom: vars.$spacing-16;
+}
+
+.descriptions {
+  font-size: vars.$font-size-15;
+  line-height: vars.$line-height-140;
+  color: vars.$secondary-grey-light;
+  margin-bottom: vars.$spacing-60;
+}
+
+.card {
+  background-color: vars.$background-card;
+  padding: vars.$spacing-32;
+  border-radius: vars.$spacing-8;
+  border-top: 4px solid vars.$accent-cyan;
+  box-shadow: 0 15px 30px -11px vars.$accent-shadow;
+  margin-bottom: vars.$spacing-32;
+  text-align: left;
+
+  &.card:last-child {
+    margin-bottom: 0;
+  }
+
+  .card__name { 
+    font-size: vars.$font-size-20;
+    line-height: vars.$line-height-135;
+    letter-spacing: vars.$letter-spacing;
+    color: vars.$primary-grey-dark;
+    margin-bottom: vars.$spacing-6;
+  }
+  .card__description {
+    font-size: vars.$font-size-13;
+    line-height: vars.$line-height-160;
+    color: vars.$secondary-grey-light;
+    margin-bottom: vars.$spacing-32;
+  }
+
+  &.red {
+    border-top-color: vars.$accent-red;
+  }
+  &.orange {
+    border-top-color: vars.$accent-orange;
+  }
+  &.blue {
+    border-top-color: vars.$accent-blue;
+  }
+  .card__image {
+    text-align: right;
+  }
+}
