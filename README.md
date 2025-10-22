@@ -1,7 +1,7 @@
 
 # Frontend Mentor - Product preview card component
 
-![My QR Code Screenshot](./src/design/4cards-grid.png.png)
+![My Product preview 4 cards screenshot](./src/design/4cards-grid.png.png)
 
 A simple solution for the [Frontend Mentor](https://www.frontendmentor.io) challenge - Four Card Component.
 
@@ -23,8 +23,8 @@ This project recreates a **Product preview card component** from a Figma design,
 
 ## Links
 
-- Solution URL: [GitHub Repository](https://github.com/przemekkoczwara/perfume-card)
-- Live Site URL: [Your Live Site](https://przemekkoczwara.github.io/perfume-card/)
+- Solution URL: [GitHub Repository](https://github.com/przemekkoczwara/four-cards)
+- Live Site URL: [Your Live Site] (https://przemekkoczwara.github.io/four-cards/)
 
 ---
 
