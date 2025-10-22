@@ -1,7 +1,6 @@
-
 # Frontend Mentor - Product preview card component
 
-![My Product preview 4 cards screenshot](./src/design/4cards-grid.png.png)
+![My Product preview 4 cards screenshot](./src/design/screenshot.png)
 
 A simple solution for the [Frontend Mentor](https://www.frontendmentor.io) challenge - Four Card Component.
 
@@ -30,7 +29,7 @@ This project recreates a **Product preview card component** from a Figma design,
 
 ## Built With
 
-- Vite 
+- Vite
 - HTML5 & Semantic Markup
 - CSS Variables & Flexbox & Grid
 - Mobile-first responsive design

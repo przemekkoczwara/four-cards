@@ -9,11 +9,6 @@
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .hero {
-    padding: 0 5rem;
-  }
-}
 .title,
 .subtitle {
   font-size: vars.$font-size-24;
@@ -31,6 +26,16 @@
   line-height: vars.$line-height-140;
   color: vars.$secondary-grey-light;
   margin-bottom: vars.$spacing-60;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 0 6rem;
+  }
+  .title,
+  .subtitle {
+    font-size: vars.$font-size-36;
+  }
 }
 
 .card {
@@ -101,6 +106,9 @@
 }
 
 @media (min-width: 1024px) {
+  .hero {
+    padding: 0 14rem;
+  }
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
